@@ -1,4 +1,4 @@
-a# The Site Configuration
+# The Site Configuration
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -23,10 +23,10 @@ I will store all my projects and progress here for my resume (Im trying to get i
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "emanuelkrabnl.github.io"
+url: 'https://emanuelkrabnl.github.io'
 
 github:
-  username: emanuelkrabnl # change to your GitHub username
+  username: EmanuelKrabNL # change to your GitHub username
 
 # twitter:
   # username: twitter_username # change to your Twitter username
