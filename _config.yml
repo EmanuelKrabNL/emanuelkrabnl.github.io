@@ -150,7 +150,8 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "emanuelkrabnl.github.io"
+url: "https://emanuelkrabnl.github.io" # url van site
+baseurl: "" # leeg als dit root/base url of site is
 
 # ------------ The following options are not recommended to be modified ------------------
 
