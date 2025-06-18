@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Video Downloader</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <header>
-    <h1>Video Downloader</h1>
-    <a href="/projects/">← Terug naar alle projecten</a>
-  </header>
-  <main>
-    <!-- Je tool UI hier -->
-    <p>Hier komt de functionaliteit om video's te downloaden.</p>
-  </main>
+  <a href="/projects/">← Back to Projects</a>
+  <h1>Video Downloader</h1>
+  <p>Enter the URL of the video you want to download:</p>
+  
+  <input type="text" id="videoUrl" placeholder="Paste video URL here" />
+  <button id="downloadBtn">Download</button>
+  
+  <p id="message"></p>
+
   <script src="./script.js"></script>
 </body>
 </html>
