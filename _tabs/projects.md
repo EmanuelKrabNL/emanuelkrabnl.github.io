@@ -23,7 +23,6 @@ order: 5
   color: inherit;
   display: block;
 }
-
 .project-card:hover {
   border-color: #ff7f50; /* bij hover: oranje */
   transform: translateY(-5px);
