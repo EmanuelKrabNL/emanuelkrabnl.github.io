@@ -39,14 +39,9 @@ order: 5
 
 <div class="projects-grid">
 
-  <a class="project-card" href="/projects/videodownloader/">
-    <h2>Video Downloader</h2>
-    <p>Download video's van het web met 1 klik.</p>
-  </a>
-
-  <a class="project-card" href="/projects/colorpicker/">
-    <h2>Color Picker</h2>
-    <p>Kies en kopieer kleuren uit je scherm.</p>
-  </a>
+<a class="project-card" href="/projects/videodownloader/">
+  <h2>Video Downloader</h2>
+  <p>Download Videos From Web!</p>
+</a>
 
 </div>
