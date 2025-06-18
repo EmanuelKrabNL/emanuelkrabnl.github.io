@@ -1,0 +1,44 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: var(--page-bg);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+#message {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #555;
+}
