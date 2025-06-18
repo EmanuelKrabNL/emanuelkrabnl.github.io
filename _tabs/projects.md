@@ -15,16 +15,21 @@ order: 5
 }
 .project-card {
   background: var(--page-bg);
-  border: 1px solid var(--border-color);
+  border: 3px solid transparent;   /* standaard onzichtbare rand */
   border-radius: 12px;
   padding: 1rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
   text-decoration: none;
   color: inherit;
+  display: block;  /* maakt hele kaart klikbaar */
 }
+
 .project-card:hover {
+  border-color: #0077cc;  /* blauwe rand bij hover */
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
 }
 .project-card h2 {
   margin: 0;
