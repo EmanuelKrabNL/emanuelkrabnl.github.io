@@ -152,6 +152,10 @@ paginate: 10
 url: "https://emanuelkrabnl.github.io" # url van site
 baseurl: "" # leeg als dit root/base url of site is
 
+collections:
+  projects:
+    output: true
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
