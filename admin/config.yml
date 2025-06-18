@@ -1,10 +1,10 @@
 backend:
-  name: github
-  repo: EmanuelKrabNL/emanuelkrabnl.github.io
+  # use Netlify’s Git Gateway (via Netlify Identity)
+  name: git-gateway
   branch: main
 
-media_folder: "assets/img/uploads"
-public_folder: "/assets/img/uploads"
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
   - name: "projects"
@@ -13,8 +13,18 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Title",       name: "title",       widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Project Link", name: "link", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "URL",         name: "url",         widget: "string" }
+      - { label: "Image",       name: "image",       widget: "image" }
+      - { label: "Body",        name: "body",        widget: "markdown" }
+
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date",  name: "date",  widget: "datetime" }
+      - { label: "Body",  name: "body",  widget: "markdown" }
