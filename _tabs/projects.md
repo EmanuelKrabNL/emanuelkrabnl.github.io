@@ -15,8 +15,11 @@ order: 5
 }
 .project-card {
   background: var(--page-bg);
-  border: 3px solid #0077cc; /* standaard: blauw */
+  border-width: 3px;
+  border-style: solid;
+  border-color: #0077cc;
   border-radius: 12px;
+  box-sizing: border-box;
   padding: 1rem;
   transition: border-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
   text-decoration: none;
