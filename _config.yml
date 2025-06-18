@@ -225,7 +225,3 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-# ─── Collections ──────────────────────────────────────────
-collections:
-  projects:
-    output: true
